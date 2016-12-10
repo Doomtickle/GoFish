@@ -3,102 +3,102 @@
 #include"Game.h" // include header file
 
 using namespace std; // for cout, cin
-int total; // variable total; data type int
+int total; // variable iTotal; data type int
 
-void mainMenu(string &choice, bool &play, Game &game);
+void mainMenu(string &strChoice, bool &bPlay, Game &game);
 
-void askToRepeatGame(Game &game, string &choice, int total, int &total1, bool &play);
+void askToRepeatGame(Game &game, string &strChoice, int iTotal, int &iTotal1, bool &bPlay);
 
-void displayExitMessage(int total1);
+void displayExitMessage(int iTotal1);
 
 int main() // main function
 {
     Game game;
-    string choice; // variable choice; data type int; holds user's choice to continue game play
-    int total; // variable mytotal; data type int; initialized to 0
-    int total1 = 0; //variable total1; data type int; initialized to 0
-    bool play; // variable play; data type boolGame game;
+    string strChoice; // variable strChoice; data type int; holds user's strChoice to continue game bPlay
+    int iTotal; // variable mytotal; data type int; initialized to 0
+    int iTotal1 = 0; //variable iTotal1; data type int; initialized to 0
+    bool bPlay; // variable bPlay; data type boolGame game;
 
-    mainMenu(choice, play, game);
+    mainMenu(strChoice, bPlay, game);
 
-    total = 0; // variable total is initialized to 0
-    while (play) { // while play boolean is set to true; user wants to play game
+    iTotal = 0; // variable iTotal is initialized to 0
+    while (bPlay) { // while bPlay boolean is set to true; user wants to bPlay game
 
-        askToRepeatGame(game, choice, total, total1, play);
+        askToRepeatGame(game, strChoice, iTotal, iTotal1, bPlay);
 
     }
 
-    if (play == false)// if play is false (user chose not to play)
+    if (bPlay == false)// if bPlay is false (user chose not to bPlay)
     {
-        displayExitMessage(total1);
+        displayExitMessage(iTotal1);
 
     }
     return 0;// end main function
 }
 
-void displayExitMessage(int total1) {
-    cout << "Your Total fishing points are " << total1 << endl; // displays user's total points from whole game
-    if (total1 > 100) // if game total greater than 100
+void displayExitMessage(int iTotal1) {
+    cout << "Your Total fishing points are " << iTotal1 << endl; // displays user's iTotal points from whole game
+    if (iTotal1 > 100) // if game iTotal greater than 100
             cout << "Awesome! You're a great fisher!" << endl; // congratulate user
-    if (total1 < 100)// if game total is less than 100
+    if (iTotal1 < 100)// if game iTotal is less than 100
             cout << "Good job, but play again so you can fish some more." << endl;// chastise user
 
 }
 
-void askToRepeatGame(Game &game, string &choice, int total, int &total1, bool &play) {
-    total1 += game.playGame(total);
-    // total1 variable keeps a running total of the game
-    //game.playgame(total) uses the game object to call the playgame
-    // function that passes the variable total when game.playgame(total)
+void askToRepeatGame(Game &game, string &strChoice, int iTotal, int &iTotal1, bool &bPlay) {
+    iTotal1 += game.playGame(iTotal);
+    // iTotal1 variable keeps a running iTotal of the game
+    //game.playgame(iTotal) uses the game object to call the playgame
+    // function that passes the variable iTotal when game.playgame(iTotal)
     // is called.
-    // This function essentially mobilizes game play of die rolling and point accumulation
-    //each time this function is called (as many times as user wants to play game), the
-    // running total is incremented
+    // This function essentially mobilizes game bPlay of die rolling and point accumulation
+    //each time this function is called (as many times as user wants to bPlay game), the
+    // running iTotal is incremented
 
-    cout << "Do you want to play again? (0 for no, 1 for yes)" << endl;// asks user if they want to play again
-    cin >> choice;// user enters choice
+    cout << "Do you want to play again? (0 for no, 1 for yes)" << endl;// asks user if they want to bPlay again
+    cin >> strChoice;// user enters strChoice
 
-    if (choice == "1") // if user enters 1
+    if (strChoice == "1") // if user enters 1
         {
-            play = true; // play is assigned to true
-        } else if (choice == "0") // if user enters 0
+            bPlay = true; // bPlay is assigned to true
+        } else if (strChoice == "0") // if user enters 0
         {
-            play = false; // play is assigned to false
+            bPlay = false; // bPlay is assigned to false
         }
 
-    while ((choice != "0") && (choice != "1")) { // while user entry is not valid
+    while ((strChoice != "0") && (strChoice != "1")) { // while user entry is not valid
 // display correct inpout choices again
             cout
                     << "You entered invalid data. Please enter the numerical value 1 if you want to play again or 0 if you dont."
                     << endl;
-            cin >> choice; // hopefully user enters valid input
+            cin >> strChoice; // hopefully user enters valid input
 
-            if (choice == "1") { // if user chooses proper input after improper input
-                play = true;// play boolean is set to true
+            if (strChoice == "1") { // if user chooses proper input after improper input
+                bPlay = true;// bPlay boolean is set to true
                 break;// break
             }
         }
 }
 
-void mainMenu(string &choice, bool &play, Game &game) {// Game object game declared
+void mainMenu(string &strChoice, bool &bPlay, Game &game) {// Game object game declared
     cout << "Welcome to Go Fish 2016!" << endl; // welcome message
-    cout << "Would you like to play?" << endl; // Prompts user to play
+    cout << "Would you like to play?" << endl; // Prompts user to bPlay
     cout << "1 to play, 0 to exit:" << endl; // Provides user with input choices
-    cin >> choice; // user enters game play choice
+    cin >> strChoice; // user enters game bPlay strChoice
 
-    if (choice == "1") // while user chooses to play game
-        play = true; // play boolean is set to true
-    else if (choice == "0") // while user chooses to end game
-        play = false; // play boolean is false
-    while ((choice != "0") && (choice != "1")) { // while user entry is not valid
+    if (strChoice == "1") // while user chooses to bPlay game
+        bPlay = true; // bPlay boolean is set to true
+    else if (strChoice == "0") // while user chooses to end game
+        bPlay = false; // bPlay boolean is false
+    while ((strChoice != "0") && (strChoice != "1")) { // while user entry is not valid
 // display correct input choices again
         cout
                 << "You entered invalid data. Please enter the numerical value 1 if you want to play again or 0 if you dont."
                 << endl;
-        cin >> choice; // hopefully user enters valid input
+        cin >> strChoice; // hopefully user enters valid input
 
-        if (choice == "1") { // if user chooses proper input after improper input
-            play = true;// play boolean is set to true
+        if (strChoice == "1") { // if user chooses proper input after improper input
+            bPlay = true;// bPlay boolean is set to true
             break;// break
         }
     }
