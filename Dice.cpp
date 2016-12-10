@@ -1,3 +1,8 @@
+/*
+ * Go Fish! 2016 by Daron Adkins
+ * Project 6 - Chapter 7, Programming Challenge 18
+ * Last updated: 12/9/16
+ */
 #include <cstdlib>
 #include <time.h>
 #include "Dice.h"

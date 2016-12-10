@@ -1,3 +1,9 @@
+/*
+ * Go Fish! 2016 by Daron Adkins
+ * Project 6 - Chapter 7, Programming Challenge 18
+ * Last updated: 12/9/16
+ */
+
 #include "Dice.h"
 #include "Points.h"
 #include "Game.h"

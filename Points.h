@@ -1,6 +1,8 @@
-//
-// Created by Daron Adkins on 12/9/16.
-//
+/*
+ * Go Fish! 2016 by Daron Adkins
+ * Project 6 - Chapter 7, Programming Challenge 18
+ * Last updated: 12/9/16
+ */
 
 #ifndef GOFISH_POINTS_H
 #define GOFISH_POINTS_H
