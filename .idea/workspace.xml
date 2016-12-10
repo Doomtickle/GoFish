@@ -12,11 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efe4d12a-01ca-4b7c-a197-c28bfcc0a7d6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GoFish.dir/Dice.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GoFish.dir/Dice.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GoFish.dir/Game.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GoFish.dir/Game.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GoFish.dir/Points.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GoFish.dir/Points.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GoFish.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GoFish.dir/main.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/GoFish" afterPath="$PROJECT_DIR$/cmake-build-debug/GoFish" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,13 +33,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Points.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Points.h">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="2100">
+              <caret line="78" column="6" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
               <folding>
-                <element signature="e#167#202#0" expanded="true" />
+                <element signature="e#117#135#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,9 +67,9 @@
         <option value="$PROJECT_DIR$/Dice.h" />
         <option value="$PROJECT_DIR$/Game.cpp" />
         <option value="$PROJECT_DIR$/Game.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Points.cpp" />
         <option value="$PROJECT_DIR$/Points.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -319,12 +318,12 @@
       <option name="presentableId" value="Default" />
       <updated>1481324557341</updated>
       <workItem from="1481324559475" duration="7312000" />
-      <workItem from="1481337504445" duration="3222000" />
+      <workItem from="1481337504445" duration="3375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10534000" />
+    <option name="totallyTimeSpent" value="10687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
@@ -438,21 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <marker date="1481341078000" expanded="true" signature="0:115" ph="/.../" />
-            <marker date="1481341078000" expanded="true" signature="126:218" ph="..." />
-            <marker date="1481341078000" expanded="true" signature="524:1258" ph="{...}" />
-            <marker date="1481341078000" expanded="true" signature="1297:1713" ph="{...}" />
-            <marker date="1481341078000" expanded="true" signature="1806:3270" ph="{...}" />
-            <marker date="1481341078000" expanded="true" signature="3330:4410" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Points.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -470,7 +454,19 @@
         <state relative-caret-position="140">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#167#202#0" expanded="true" />
+            <marker date="1481341078000" expanded="true" signature="0:115" ph="/.../" />
+            <marker date="1481341078000" expanded="true" signature="176:247" ph="..." />
+            <marker date="1481341078000" expanded="true" signature="300:516" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="78" column="6" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+          <folding>
+            <element signature="e#117#135#0" expanded="true" />
           </folding>
         </state>
       </provider>

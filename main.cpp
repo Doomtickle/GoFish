@@ -9,7 +9,6 @@
 #include"Game.h" // include header file
 
 using namespace std; // for cout, cin
-int total; // variable iTotal; data type int
 
 void mainMenu(string &strChoice, bool &bPlay, Game &game);
 
