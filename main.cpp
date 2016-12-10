@@ -10,7 +10,7 @@
 
 using namespace std; // for cout, cin
 
-void mainMenu(string &strChoice, bool &bPlay, Game &game);
+void mainMenu(Game game);
 
 void askToRepeatGame(Game &game, string &strChoice, int iTotal, int &iTotal1, bool &bPlay);
 
@@ -19,27 +19,12 @@ void displayExitMessage(int iTotal1);
 int main() // main function
 {
     Game game;
-    string strChoice; // variable strChoice; data type int; holds user's strChoice to continue game bPlay
-    int iTotal; // variable mytotal; data type int; initialized to 0
-    int iTotal1 = 0; //variable iTotal1; data type int; initialized to 0
-    bool bPlay; // variable bPlay; data type boolGame game;
 
-    mainMenu(strChoice, bPlay, game);
+    mainMenu(game);
 
-    iTotal = 0; // variable iTotal is initialized to 0
-    while (bPlay) { // while bPlay boolean is set to true; user wants to bPlay game
-
-        askToRepeatGame(game, strChoice, iTotal, iTotal1, bPlay);
-
-    }
-
-    if (bPlay == false)// if bPlay is false (user chose not to bPlay)
-    {
-        displayExitMessage(iTotal1);
-
-    }
     return 0;// end main function
 }
+
 
 void displayExitMessage(int iTotal1) {
     cout << "Your Total fishing points are " << iTotal1 << endl; // displays user's iTotal points from whole game
@@ -85,7 +70,11 @@ void askToRepeatGame(Game &game, string &strChoice, int iTotal, int &iTotal1, bo
     }
 }
 
-void mainMenu(string &strChoice, bool &bPlay, Game &game) {// Game object game declared
+void mainMenu(Game game) {// Game object game declared
+    string strChoice; // variable strChoice; data type int; holds user's strChoice to continue game bPlay
+    int iTotal; // variable mytotal; data type int; initialized to 0
+    int iTotal1 = 0; //variable iTotal1; data type int; initialized to 0
+    bool bPlay; // variable bPlay; data type boolGame game;
     cout << "Welcome to Go Fish 2016!" << endl; // welcome message
     cout << "Would you like to play?" << endl; // Prompts user to bPlay
     cout << "1 to play, 0 to exit:" << endl; // Provides user with input choices
@@ -107,4 +96,13 @@ void mainMenu(string &strChoice, bool &bPlay, Game &game) {// Game object game d
             break;// break
         }
     }
+    iTotal = 0; // variable iTotal is initialized to 0
+    while (bPlay) { // while bPlay boolean is set to true; user wants to bPlay game
+        askToRepeatGame(game, strChoice, iTotal, iTotal1, bPlay);
+    }
+    if (!bPlay)// if bPlay is false (user chose not to bPlay)
+    {
+        displayExitMessage(iTotal1);
+    }
+
 }
