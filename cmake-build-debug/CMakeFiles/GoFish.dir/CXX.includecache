@@ -6,17 +6,41 @@
 
 #IncludeRegexTransform: 
 
+/Users/Doomtickle/ClionProjects/GoFish/Dice.cpp
+cstdlib
+-
+time.h
+-
+Dice.h
+/Users/Doomtickle/ClionProjects/GoFish/Dice.h
+Points.h
+/Users/Doomtickle/ClionProjects/GoFish/Points.h
+
 /Users/Doomtickle/ClionProjects/GoFish/Dice.h
 time.h
 -
 stdlib.h
 -
 
+/Users/Doomtickle/ClionProjects/GoFish/Game.cpp
+Dice.h
+/Users/Doomtickle/ClionProjects/GoFish/Dice.h
+Points.h
+/Users/Doomtickle/ClionProjects/GoFish/Points.h
+Game.h
+/Users/Doomtickle/ClionProjects/GoFish/Game.h
+
 /Users/Doomtickle/ClionProjects/GoFish/Game.h
 Points.h
 /Users/Doomtickle/ClionProjects/GoFish/Points.h
 iostream
 -
+
+/Users/Doomtickle/ClionProjects/GoFish/Points.cpp
+iostream
+-
+Points.h
+/Users/Doomtickle/ClionProjects/GoFish/Points.h
 
 /Users/Doomtickle/ClionProjects/GoFish/Points.h
 iostream

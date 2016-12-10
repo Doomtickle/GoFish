@@ -123,6 +123,87 @@ GoFish/fast:
 	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/build
 .PHONY : GoFish/fast
 
+Dice.o: Dice.cpp.o
+
+.PHONY : Dice.o
+
+# target to build an object file
+Dice.cpp.o:
+	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/Dice.cpp.o
+.PHONY : Dice.cpp.o
+
+Dice.i: Dice.cpp.i
+
+.PHONY : Dice.i
+
+# target to preprocess a source file
+Dice.cpp.i:
+	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/Dice.cpp.i
+.PHONY : Dice.cpp.i
+
+Dice.s: Dice.cpp.s
+
+.PHONY : Dice.s
+
+# target to generate assembly for a file
+Dice.cpp.s:
+	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/Dice.cpp.s
+.PHONY : Dice.cpp.s
+
+Game.o: Game.cpp.o
+
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
+Points.o: Points.cpp.o
+
+.PHONY : Points.o
+
+# target to build an object file
+Points.cpp.o:
+	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/Points.cpp.o
+.PHONY : Points.cpp.o
+
+Points.i: Points.cpp.i
+
+.PHONY : Points.i
+
+# target to preprocess a source file
+Points.cpp.i:
+	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/Points.cpp.i
+.PHONY : Points.cpp.i
+
+Points.s: Points.cpp.s
+
+.PHONY : Points.s
+
+# target to generate assembly for a file
+Points.cpp.s:
+	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/Points.cpp.s
+.PHONY : Points.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +240,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... GoFish"
+	@echo "... Dice.o"
+	@echo "... Dice.i"
+	@echo "... Dice.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
+	@echo "... Points.o"
+	@echo "... Points.i"
+	@echo "... Points.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

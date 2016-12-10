@@ -3,5 +3,5 @@ project(GoFish)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp Dice.h Points.h Game.h)
+set(SOURCE_FILES main.cpp Dice.h Points.h Game.h Game.cpp Dice.cpp Points.cpp)
 add_executable(GoFish ${SOURCE_FILES})

@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/Doomtickle/ClionProjects/GoFish/Dice.cpp" "/Users/Doomtickle/ClionProjects/GoFish/cmake-build-debug/CMakeFiles/GoFish.dir/Dice.cpp.o"
+  "/Users/Doomtickle/ClionProjects/GoFish/Game.cpp" "/Users/Doomtickle/ClionProjects/GoFish/cmake-build-debug/CMakeFiles/GoFish.dir/Game.cpp.o"
+  "/Users/Doomtickle/ClionProjects/GoFish/Points.cpp" "/Users/Doomtickle/ClionProjects/GoFish/cmake-build-debug/CMakeFiles/GoFish.dir/Points.cpp.o"
   "/Users/Doomtickle/ClionProjects/GoFish/main.cpp" "/Users/Doomtickle/ClionProjects/GoFish/cmake-build-debug/CMakeFiles/GoFish.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

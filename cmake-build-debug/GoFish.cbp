@@ -80,10 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Doomtickle/ClionProjects/GoFish/Dice.cpp">
+			<Option target="GoFish"/>
+		</Unit>
 		<Unit filename="/Users/Doomtickle/ClionProjects/GoFish/Dice.h">
 			<Option target="GoFish"/>
 		</Unit>
+		<Unit filename="/Users/Doomtickle/ClionProjects/GoFish/Game.cpp">
+			<Option target="GoFish"/>
+		</Unit>
 		<Unit filename="/Users/Doomtickle/ClionProjects/GoFish/Game.h">
+			<Option target="GoFish"/>
+		</Unit>
+		<Unit filename="/Users/Doomtickle/ClionProjects/GoFish/Points.cpp">
 			<Option target="GoFish"/>
 		</Unit>
 		<Unit filename="/Users/Doomtickle/ClionProjects/GoFish/Points.h">

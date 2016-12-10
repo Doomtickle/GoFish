@@ -81,17 +81,95 @@ CMakeFiles/GoFish.dir/main.cpp.o.provides: CMakeFiles/GoFish.dir/main.cpp.o.requ
 CMakeFiles/GoFish.dir/main.cpp.o.provides.build: CMakeFiles/GoFish.dir/main.cpp.o
 
 
+CMakeFiles/GoFish.dir/Game.cpp.o: CMakeFiles/GoFish.dir/flags.make
+CMakeFiles/GoFish.dir/Game.cpp.o: ../Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Doomtickle/ClionProjects/GoFish/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GoFish.dir/Game.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GoFish.dir/Game.cpp.o -c /Users/Doomtickle/ClionProjects/GoFish/Game.cpp
+
+CMakeFiles/GoFish.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GoFish.dir/Game.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Doomtickle/ClionProjects/GoFish/Game.cpp > CMakeFiles/GoFish.dir/Game.cpp.i
+
+CMakeFiles/GoFish.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GoFish.dir/Game.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Doomtickle/ClionProjects/GoFish/Game.cpp -o CMakeFiles/GoFish.dir/Game.cpp.s
+
+CMakeFiles/GoFish.dir/Game.cpp.o.requires:
+
+.PHONY : CMakeFiles/GoFish.dir/Game.cpp.o.requires
+
+CMakeFiles/GoFish.dir/Game.cpp.o.provides: CMakeFiles/GoFish.dir/Game.cpp.o.requires
+	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/Game.cpp.o.provides.build
+.PHONY : CMakeFiles/GoFish.dir/Game.cpp.o.provides
+
+CMakeFiles/GoFish.dir/Game.cpp.o.provides.build: CMakeFiles/GoFish.dir/Game.cpp.o
+
+
+CMakeFiles/GoFish.dir/Dice.cpp.o: CMakeFiles/GoFish.dir/flags.make
+CMakeFiles/GoFish.dir/Dice.cpp.o: ../Dice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Doomtickle/ClionProjects/GoFish/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GoFish.dir/Dice.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GoFish.dir/Dice.cpp.o -c /Users/Doomtickle/ClionProjects/GoFish/Dice.cpp
+
+CMakeFiles/GoFish.dir/Dice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GoFish.dir/Dice.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Doomtickle/ClionProjects/GoFish/Dice.cpp > CMakeFiles/GoFish.dir/Dice.cpp.i
+
+CMakeFiles/GoFish.dir/Dice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GoFish.dir/Dice.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Doomtickle/ClionProjects/GoFish/Dice.cpp -o CMakeFiles/GoFish.dir/Dice.cpp.s
+
+CMakeFiles/GoFish.dir/Dice.cpp.o.requires:
+
+.PHONY : CMakeFiles/GoFish.dir/Dice.cpp.o.requires
+
+CMakeFiles/GoFish.dir/Dice.cpp.o.provides: CMakeFiles/GoFish.dir/Dice.cpp.o.requires
+	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/Dice.cpp.o.provides.build
+.PHONY : CMakeFiles/GoFish.dir/Dice.cpp.o.provides
+
+CMakeFiles/GoFish.dir/Dice.cpp.o.provides.build: CMakeFiles/GoFish.dir/Dice.cpp.o
+
+
+CMakeFiles/GoFish.dir/Points.cpp.o: CMakeFiles/GoFish.dir/flags.make
+CMakeFiles/GoFish.dir/Points.cpp.o: ../Points.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Doomtickle/ClionProjects/GoFish/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GoFish.dir/Points.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GoFish.dir/Points.cpp.o -c /Users/Doomtickle/ClionProjects/GoFish/Points.cpp
+
+CMakeFiles/GoFish.dir/Points.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GoFish.dir/Points.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Doomtickle/ClionProjects/GoFish/Points.cpp > CMakeFiles/GoFish.dir/Points.cpp.i
+
+CMakeFiles/GoFish.dir/Points.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GoFish.dir/Points.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Doomtickle/ClionProjects/GoFish/Points.cpp -o CMakeFiles/GoFish.dir/Points.cpp.s
+
+CMakeFiles/GoFish.dir/Points.cpp.o.requires:
+
+.PHONY : CMakeFiles/GoFish.dir/Points.cpp.o.requires
+
+CMakeFiles/GoFish.dir/Points.cpp.o.provides: CMakeFiles/GoFish.dir/Points.cpp.o.requires
+	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/Points.cpp.o.provides.build
+.PHONY : CMakeFiles/GoFish.dir/Points.cpp.o.provides
+
+CMakeFiles/GoFish.dir/Points.cpp.o.provides.build: CMakeFiles/GoFish.dir/Points.cpp.o
+
+
 # Object files for target GoFish
 GoFish_OBJECTS = \
-"CMakeFiles/GoFish.dir/main.cpp.o"
+"CMakeFiles/GoFish.dir/main.cpp.o" \
+"CMakeFiles/GoFish.dir/Game.cpp.o" \
+"CMakeFiles/GoFish.dir/Dice.cpp.o" \
+"CMakeFiles/GoFish.dir/Points.cpp.o"
 
 # External object files for target GoFish
 GoFish_EXTERNAL_OBJECTS =
 
 GoFish: CMakeFiles/GoFish.dir/main.cpp.o
+GoFish: CMakeFiles/GoFish.dir/Game.cpp.o
+GoFish: CMakeFiles/GoFish.dir/Dice.cpp.o
+GoFish: CMakeFiles/GoFish.dir/Points.cpp.o
 GoFish: CMakeFiles/GoFish.dir/build.make
 GoFish: CMakeFiles/GoFish.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Doomtickle/ClionProjects/GoFish/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable GoFish"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Doomtickle/ClionProjects/GoFish/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable GoFish"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GoFish.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +178,9 @@ CMakeFiles/GoFish.dir/build: GoFish
 .PHONY : CMakeFiles/GoFish.dir/build
 
 CMakeFiles/GoFish.dir/requires: CMakeFiles/GoFish.dir/main.cpp.o.requires
+CMakeFiles/GoFish.dir/requires: CMakeFiles/GoFish.dir/Game.cpp.o.requires
+CMakeFiles/GoFish.dir/requires: CMakeFiles/GoFish.dir/Dice.cpp.o.requires
+CMakeFiles/GoFish.dir/requires: CMakeFiles/GoFish.dir/Points.cpp.o.requires
 
 .PHONY : CMakeFiles/GoFish.dir/requires
 

@@ -8,8 +8,7 @@ int total; // variable total; data type int
 int main() // main function
 {
     string choice; // variable choice; data type int; holds user's choice to continue game play
-    int mytotal = 0, total, points_to_add; // variable mytotal; data type int; initialized to 0
-// points to add variable has data type int
+    int total; // variable mytotal; data type int; initialized to 0
     int total1 = 0; //variable total1; data type int; initialized to 0
     bool play; // variable play; data type bool
 
@@ -40,7 +39,7 @@ int main() // main function
     total = 0; // variable total is initialized to 0
     while (play) { // while play boolean is set to true; user wants to play game
 
-        total1 += game.playgame(total); // total1 variable keeps a running total of the game
+        total1 += game.playGame(total); // total1 variable keeps a running total of the game
 //game.playgame(total) uses the game object to call the playgame function that passes the variable total
 // when game.playgame(total) is called this funciton essentially mobilizes game play of die rolling and point accumulation
 //each time this function is called (as many times as user wants to play game), the running total is incremented
