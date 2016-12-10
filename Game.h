@@ -3,7 +3,7 @@
 
 using namespace std;// for cout,cin
 
-class Game: public Points{ // Game class declaration; extended from Points class
+class Game : public Points { // Game class declaration; extended from Points class
 
 // private member objects
 private:

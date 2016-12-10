@@ -15,8 +15,10 @@ class Dice // Dice class declaration
 
 public: // public member functions
     int rollDice();
+
     int iDiceValue; // iDiceValue holds value after dice is rolled; data type int
     void setIDiceValue(int iDiceValue);
+
     int getIDiceValue() const;
 }; // end of class declaration
 
