@@ -31,6 +31,10 @@ public: // public member functions
 
     void setDiceValue(){
        DiceValue.value = rollDice();
+        //kind of jumping the shark with this, as it's an extra step
+        //but I'm trying to demonstrate that I can use a structure with
+        //getters and setters
+
     }
 
 }; // end of class declaration
