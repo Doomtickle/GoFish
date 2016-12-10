@@ -44,9 +44,9 @@ int main() // main function
 void displayExitMessage(int iTotal1) {
     cout << "Your Total fishing points are " << iTotal1 << endl; // displays user's iTotal points from whole game
     if (iTotal1 > 100) // if game iTotal greater than 100
-            cout << "Awesome! You're a great fisher!" << endl; // congratulate user
+        cout << "Awesome! You're a great fisher!" << endl; // congratulate user
     if (iTotal1 < 100)// if game iTotal is less than 100
-            cout << "Good job, but play again so you can fish some more." << endl;// chastise user
+        cout << "Good job, but play again so you can fish some more." << endl;// chastise user
 
 }
 
@@ -64,25 +64,25 @@ void askToRepeatGame(Game &game, string &strChoice, int iTotal, int &iTotal1, bo
     cin >> strChoice;// user enters strChoice
 
     if (strChoice == "1") // if user enters 1
-        {
-            bPlay = true; // bPlay is assigned to true
-        } else if (strChoice == "0") // if user enters 0
-        {
-            bPlay = false; // bPlay is assigned to false
-        }
+    {
+        bPlay = true; // bPlay is assigned to true
+    } else if (strChoice == "0") // if user enters 0
+    {
+        bPlay = false; // bPlay is assigned to false
+    }
 
     while ((strChoice != "0") && (strChoice != "1")) { // while user entry is not valid
 // display correct inpout choices again
-            cout
-                    << "You entered invalid data. Please enter the numerical value 1 if you want to play again or 0 if you dont."
-                    << endl;
-            cin >> strChoice; // hopefully user enters valid input
+        cout
+                << "You entered invalid data. Please enter the numerical value 1 if you want to play again or 0 if you dont."
+                << endl;
+        cin >> strChoice; // hopefully user enters valid input
 
-            if (strChoice == "1") { // if user chooses proper input after improper input
-                bPlay = true;// bPlay boolean is set to true
-                break;// break
-            }
+        if (strChoice == "1") { // if user chooses proper input after improper input
+            bPlay = true;// bPlay boolean is set to true
+            break;// break
         }
+    }
 }
 
 void mainMenu(string &strChoice, bool &bPlay, Game &game) {// Game object game declared

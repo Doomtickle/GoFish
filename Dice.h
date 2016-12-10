@@ -11,8 +11,8 @@
 #include <stdlib.h>// for random function
 
 
-struct DiceStruct{
-   int value;
+struct DiceStruct {
+    int value;
 //my structure for the project requirements
 };
 
@@ -25,12 +25,12 @@ private:
 public: // public member functions
     int rollDice();
 
-    int getDiceValue(){
+    int getDiceValue() {
         return DiceValue.value;
     }
 
-    void setDiceValue(){
-       DiceValue.value = rollDice();
+    void setDiceValue() {
+        DiceValue.value = rollDice();
         //kind of jumping the shark with this, as it's an extra step
         //but I'm trying to demonstrate that I can use a structure with
         //getters and setters
