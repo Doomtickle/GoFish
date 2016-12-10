@@ -11,18 +11,31 @@
 #include <stdlib.h>// for random function
 
 
-class Dice // Dice class declaration
+struct DiceStruct{
+   int value;
+//my structure for the project requirements
+};
 
+class Dice // Dice class declaration
 {
+
+private:
+    DiceStruct DiceValue;
 
 public: // public member functions
     int rollDice();
 
-    int iDiceValue; // iDiceValue holds value after dice is rolled; data type int
-    void setIDiceValue(int iDiceValue);
+    int getDiceValue(){
+        return DiceValue.value;
+    }
 
-    int getIDiceValue() const;
+    void setDiceValue(){
+       DiceValue.value = rollDice();
+    }
+
 }; // end of class declaration
+
+
 
 #endif // end of header file
 

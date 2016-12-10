@@ -16,7 +16,6 @@ using namespace std; // for cout,cin
 class Points { // Points class declaration
 
 public: // public member variables
-    static int iTotal; // variable that holds iTotal points earned in game round; data type int
     int calculatePoints(int iDiceValue, int iTotal);
 };// end of class
 
