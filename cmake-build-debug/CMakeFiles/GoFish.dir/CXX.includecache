@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Doomtickle/ClionProjects/GoFish/Dice.h
+time.h
+-
+stdlib.h
+-
+
+/Users/Doomtickle/ClionProjects/GoFish/Game.h
+Points.h
+/Users/Doomtickle/ClionProjects/GoFish/Points.h
+iostream
+-
+
+/Users/Doomtickle/ClionProjects/GoFish/Points.h
+iostream
+-
+Dice.h
+/Users/Doomtickle/ClionProjects/GoFish/Dice.h
+
+/Users/Doomtickle/ClionProjects/GoFish/main.cpp
+iostream
+-
+Points.h
+/Users/Doomtickle/ClionProjects/GoFish/Points.h
+Game.h
+/Users/Doomtickle/ClionProjects/GoFish/Game.h
+
